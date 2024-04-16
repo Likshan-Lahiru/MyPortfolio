@@ -3,3 +3,36 @@
     height: 100%;
     background-color: #00fff9;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    /*font-family: 'Poppins' ,sans-serif;*/
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar{
+    font-size: 1.2rem;
+    color: white;
+    margin-left: 4rem;
+}
+.webLogo{
+    width: 1%;
+    aspect-ratio: 1/1;
+}
