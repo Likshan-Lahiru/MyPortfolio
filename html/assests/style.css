@@ -39,6 +39,7 @@
 #menu-icon{
     font-size: 2rem;
     color: var(--text-color);
+    display: none;
 }
 
 :root{
