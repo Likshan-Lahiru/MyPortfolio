@@ -8,11 +8,14 @@
     outline: none;
     scroll-behavior: smooth;
     font-family: 'Poppins' ,sans-serif;
+
+
 }
 :root{
     --bg-color: #1f242d;
-    --text-color: #0d0c0c;
-    --theme-color: #0ef ;
+    --text-color: #ffffff;
+    --theme-color: #01EEFF ;
+    --back-ground-color:#041632;
 }
 
 .header{
@@ -26,6 +29,7 @@
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .navbar a{
@@ -50,6 +54,18 @@
 
 .social-media-section{
     font-size: 2rem;
-    color: var(--text-color);
+    color: var(--theme-color);
+
 }
+
+#welcome-page{
+    background: var(--back-ground-color);
+    color: white;
+}
+#circle{
+    width: 100px;
+    aspect-ratio: 1/1;
+    background: #00fff9;
+}
+
 
