@@ -127,6 +127,13 @@ section{
     border: 0.1rem solid var(--theme-color);
     border-radius: 50%;
     margin: 3rem 1.5rem 3rem 0;
+    transition: 1s ease;
+}
+.social-media-section a:hover{
+    background: var(--theme-color);
+    color: var(--theme-color1);
+    box-shadow: 0 0 1rem var(--back-ground-color
+    );
 }
 
 
