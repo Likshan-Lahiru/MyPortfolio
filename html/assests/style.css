@@ -9,6 +9,11 @@
     scroll-behavior: smooth;
     font-family: 'Poppins' ,sans-serif;
 }
+:root{
+    --bg-color: #1f242d;
+    --text-color: #0d0c0c;
+    --theme-color: #0ef ;
+}
 
 .header{
     position: fixed;
@@ -42,9 +47,9 @@
     display: none;
 }
 
-:root{
-    --bg-color: #1f242d;
-    --text-color: #0d0c0c;
-    --theme-color: #0ef ;
+
+.social-media-section{
+    font-size: 2rem;
+    color: var(--text-color);
 }
 
