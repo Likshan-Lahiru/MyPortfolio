@@ -24,17 +24,19 @@
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background: white;
+    background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
+
 .navbar a{
     font-size: 1.2rem;
-    color: black;
+    color: #ffffff;
     margin-left: 1rem;
     transition: 1s;
 }
