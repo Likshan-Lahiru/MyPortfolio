@@ -11,7 +11,7 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
-    /*font-family: 'Poppins' ,sans-serif;*/
+    font-family: 'Poppins' ,sans-serif;
 }
 
 .header{
@@ -30,7 +30,11 @@
 .navbar a{
     font-size: 1.2rem;
     color: black;
-    margin-left: 2rem;
+    margin-left: 1rem;
+    transition: 1s;
+}
+.navbar a:hover{
+    color: #00fff9;
 }
 .webLogo{
     width: 1%;
