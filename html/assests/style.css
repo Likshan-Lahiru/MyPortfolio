@@ -11,11 +11,22 @@
 
 
 }
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+
+}
+
+
 :root{
     --bg-color: #1f242d;
     --text-color: #ffffff;
     --theme-color: #01EEFF ;
+    --theme-color1: #323846 ;
     --back-ground-color:#041632;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
 }
 
 .header{
@@ -61,13 +72,35 @@
 }
 
 #welcome-page{
-    background: var(--back-ground-color);
-    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #041632;
+    color:white ;
+
 }
-#circle{
-    width: 100px;
+
+#profile-picture{
+    background: transparent;
+}
+
+.home-text {
+
+}
+
+#pic{
+    width: 80%;
     aspect-ratio: 1/1;
-    background: #00fff9;
 }
+
+.home-text h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+
+
+
+
 
 
