@@ -85,18 +85,39 @@ section{
 }
 
 .home-text {
-
+    width: 180rem;
+    height: 25rem;
+    /*background: white;*/
 }
 
 #pic{
-    width: 80%;
+    width: 100%;
     aspect-ratio: 1/1;
 }
 
-.home-text h3{
-    font-size: 2.5rem;
+
+.home-text h1{
+    font-size: 4rem;
     font-weight: 700;
+    line-height: 1.3;
 }
+.home-text h2{
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+.home-text h3{
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1;
+}
+.home-text p{
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1;
+}
+
 
 
 
