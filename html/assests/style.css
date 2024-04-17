@@ -79,6 +79,14 @@ section{
     color:white ;
 
 }
+#aboutMe-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--theme-color1);
+    color:white ;
+
+}
 
 #profile-picture{
     background: transparent;
