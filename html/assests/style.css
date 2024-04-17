@@ -1,4 +1,11 @@
 
+body{
+    display: block;
+    color-scheme: dark;
+    background: radial-gradient(circle at top center, rgba(125, 188, 255, 0.5) 0, transparent 50%, transparent 100%);
+    background-color: var(--bg-color);
+    background-attachment: fixed;
+}
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +19,7 @@
 
 }
 section{
-    min-height: 100vh;
+
     padding: 10rem 9% 2rem;
 
 }
@@ -59,6 +66,12 @@ section{
 }
 
 /*welcome page css*/
+.welcome-page{
+    /*margin-top: 20vh;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .social-media-section a{
     font-size: 2rem;
@@ -163,7 +176,13 @@ section{
     width: 50%;
     height: 30vh;
 
+
 }
+#second-div .me-text {
+    color: var(--theme-color);
+}
+
+
 
 
 
