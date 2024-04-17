@@ -20,7 +20,7 @@ section{
 
 :root{
     --bg-color: #1f242d;
-    --text-color: #ffffff;
+    --text-color: #ff0000;
     --theme-color: #01EEFF ;
     --theme-color1: #323846 ;
     --back-ground-color:#041632;
@@ -44,7 +44,6 @@ section{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-
 .navbar a{
     font-size: 1.2rem;
     color: #ffffff;
@@ -58,12 +57,8 @@ section{
     width: 1%;
     aspect-ratio: 1/1;
 }
-#menu-icon{
-    font-size: 2rem;
-    color: var(--text-color);
-    display: none;
-}
 
+/*welcome page css*/
 
 .social-media-section a{
     font-size: 2rem;
@@ -79,14 +74,7 @@ section{
     color:white ;
 
 }
-#aboutMe-page{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: var(--theme-color1);
-    color:white ;
 
-}
 
 #profile-picture{
     background: transparent;
@@ -142,6 +130,16 @@ section{
     color: var(--theme-color1);
     box-shadow: 0 0 1rem var(--back-ground-color
     );
+}
+
+/*about me page css */
+#aboutMe-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--theme-color1);
+    color:white ;
+
 }
 
 #outline-picture{
