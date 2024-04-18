@@ -174,7 +174,7 @@ section{
 #second-div{
     width: 60%;
     height: 30vh;
-    background: black;
+
 
 
 }
@@ -187,6 +187,7 @@ section{
     background: var(--theme-color);
     border-radius: 4rem;
     box-shadow: 0 0 1rem var(--theme-color);
+    color: black;
 }
 
 
