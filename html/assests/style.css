@@ -27,7 +27,6 @@ section{
 
 :root{
     --bg-color: #1f242d;
-    --text-color: #ff0000;
     --theme-color: #01EEFF ;
     --theme-color1: #323846 ;
     --back-ground-color:#041632;
@@ -67,7 +66,7 @@ section{
 
 /*welcome page css*/
 .welcome-page{
-    /*margin-top: 20vh;*/
+    margin-top: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,7 +159,7 @@ section{
     height:100%;
 }
 #first-div{
-    width: 40%;
+    width: 70%;
     aspect-ratio: 1/1;
 
 
@@ -173,13 +172,21 @@ section{
 }
 
 #second-div{
-    width: 50%;
+    width: 60%;
     height: 30vh;
+    background: black;
 
 
 }
 #second-div .me-text {
     color: var(--theme-color);
+}
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--theme-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--theme-color);
 }
 
 
