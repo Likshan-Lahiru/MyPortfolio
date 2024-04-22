@@ -235,7 +235,8 @@ section{
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
     text-align: center;
-    border: .2rem solid var(--theme-color);
+    border: .2rem solid var(--theme-color1);
+    transition: 1s ease;
 }
 
 .services-box img{
@@ -251,6 +252,12 @@ section{
     margin: 1rem 0 3rem;
     color: var(--white-color);
 }
+.container .services-box:hover{
+    border-color: var(--theme-color);
+    transform: scale(1.02);
+}
+
+
 
 
 
