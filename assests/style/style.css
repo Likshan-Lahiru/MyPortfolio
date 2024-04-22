@@ -281,6 +281,49 @@ section{
     gap: 2.5rem;
 }
 
+.projects-container .project-box{
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--back-ground-color);
+    overflow: hidden;
+    display: flex;
+}
+.project-box img{
+    width: 100%;
+
+}
+.project-box .project-layer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,.1),var(--theme-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    color: var(--white-color);
+}
+.project-layer h3{
+    font-size:3rem;
+}
+.project-layer p{
+    font-size: 1.3rem;
+    margin: 3rem 0 1rem;
+}
+
+.project-layer a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: var(--white-color);
+    border-radius: 50%;
+}
 
 
 
