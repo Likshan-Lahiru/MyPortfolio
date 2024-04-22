@@ -225,6 +225,7 @@ section{
 .topic{
     text-align: center;
     font-size: 3rem;
+    color: var(--white-color);
 }
 
 .container .services-box {
@@ -244,6 +245,11 @@ section{
     color: var(--white-color);
 }
 
+.services-box p{
+    font-size: 1.2rem;
+    margin: 1rem 0 3rem;
+    color: var(--white-color);
+}
 
 
 
