@@ -85,8 +85,10 @@ section{
 }
 .btn:hover{
     box-shadow: 0 0 3rem var(--theme-color);
-    transform: scale(1.02);
     color: var(--white-color);
+    background: var(--back-ground-color);
+    transform: scale(1.02);
+
 }
 
 /*------------welcome page css------------*/
