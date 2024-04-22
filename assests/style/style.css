@@ -205,6 +205,35 @@ section{
     margin-bottom: 5rem;
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+.me-text {
+    color: var(--theme-color);
+}
+
+.topic{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.container .services-box {
+    flex: 1 1 10rem;
+    background: var(--theme-color1);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--theme-color);
+}
+
+.services-box img{
+    color: var(--theme-color);
+}
 
 
 
