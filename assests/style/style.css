@@ -75,7 +75,7 @@ section{
     aspect-ratio: 1/1;
 }
 
-/*welcome page css*/
+/*------------welcome page css------------*/
 .welcome-page{
     margin-top: 10vh;
     display: flex;
@@ -155,7 +155,7 @@ section{
     );
 }
 
-/*about me page css */
+/*------------about me page css------------*/
 #aboutMe-page{
     display: flex;
     justify-content: center;
