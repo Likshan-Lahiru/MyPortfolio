@@ -1,11 +1,11 @@
-
+/*
 body{
     display: block;
     color-scheme: dark;
     background: radial-gradient(circle at top center, rgba(125, 188, 255, 0.5) 0, transparent 50%, transparent 100%);
     background-color: var(--bg-color);
     background-attachment: fixed;
-}
+}*/
 *{
     margin: 0;
     padding: 0;
@@ -189,6 +189,9 @@ section{
     box-shadow: 0 0 1rem var(--theme-color);
     color: black;
 }
+
+
+/*------------services Section---------------*/
 
 
 
