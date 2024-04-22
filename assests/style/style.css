@@ -11,6 +11,7 @@ body{
     --theme-color1: #323846 ;
     --back-ground-color:#041632;
     --white-color: #ffff;
+    --black-color: #000000FF;
 }
 html{
 
@@ -197,7 +198,7 @@ section{
     background: var(--theme-color);
     border-radius: 4rem;
     box-shadow: 0 0 1rem var(--theme-color);
-    color: black;
+    color: var(--black-color);
 }
 
 
