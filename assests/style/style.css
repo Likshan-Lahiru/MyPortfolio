@@ -278,7 +278,7 @@ section{
     display: grid;
     grid-template-columns:repeat(3, 1fr);
     align-items: center;
-    gap: 2.5rem;
+    gap: 2rem;
 }
 
 .projects-container .project-box{
@@ -308,10 +308,10 @@ section{
     color: var(--white-color);
 }
 .project-layer h3{
-    font-size:3rem;
+    font-size:2rem;
 }
 .project-layer p{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin: 3rem 0 1rem;
 }
 
