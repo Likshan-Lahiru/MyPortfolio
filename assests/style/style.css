@@ -310,6 +310,10 @@ section{
     padding: 0 4rem;
     color: var(--white-color);
     transform: translateY(100%);
+    transition: 2s ease;
+}
+.project-box:hover .project-layer{
+    transform: translate(0);
 }
 .project-layer h3{
     font-size:2rem;
