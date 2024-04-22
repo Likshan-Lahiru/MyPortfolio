@@ -74,6 +74,20 @@ section{
     width: 1%;
     aspect-ratio: 1/1;
 }
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--theme-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--theme-color);
+    color: var(--black-color);
+    transition: 1s ;
+}
+.btn:hover{
+    box-shadow: 0 0 3rem var(--theme-color);
+    transform: scale(1.02);
+    color: var(--white-color);
+}
 
 /*------------welcome page css------------*/
 .welcome-page{
@@ -192,14 +206,7 @@ section{
 #second-div .me-text {
     color: var(--theme-color);
 }
-.btn{
-    display: inline-block;
-    padding: 1rem 2.8rem;
-    background: var(--theme-color);
-    border-radius: 4rem;
-    box-shadow: 0 0 1rem var(--theme-color);
-    color: var(--black-color);
-}
+
 
 
 /*------------services Section---------------*/
