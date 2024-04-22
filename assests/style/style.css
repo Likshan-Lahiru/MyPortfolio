@@ -215,6 +215,10 @@ section{
 }
 .me-text {
     color: var(--theme-color);
+
+}
+.topic{
+    margin: 2rem 0 3rem;
 }
 
 .topic{
