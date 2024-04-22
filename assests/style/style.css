@@ -10,6 +10,7 @@ body{
     --theme-color: #01EEFF ;
     --theme-color1: #323846 ;
     --back-ground-color:#041632;
+    --white-color: #ffff;
 }
 html{
 
@@ -61,7 +62,7 @@ section{
 
 .navbar a{
     font-size: 1.2rem;
-    color: #ffffff;
+    color: var(--white-color);
     margin-left: 1rem;
     transition: 1s;
 }
@@ -92,7 +93,7 @@ section{
     justify-content: center;
     align-items: center;
     background: #041632;
-    color:white ;
+    color: var(--white-color);
 
 }
 
@@ -159,7 +160,7 @@ section{
     justify-content: center;
     align-items: center;
     background: var(--theme-color1);
-    color:white ;
+    color:var(--white-color) ;
 
 }
 
@@ -237,6 +238,10 @@ section{
 
 .services-box img{
     color: var(--theme-color);
+}
+.services-box h3{
+    font-size: 2rem;
+    color: var(--white-color);
 }
 
 
