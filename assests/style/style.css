@@ -1,11 +1,25 @@
-/*
 body{
     display: block;
     color-scheme: dark;
     background: radial-gradient(circle at top center, rgba(125, 188, 255, 0.5) 0, transparent 50%, transparent 100%);
     background-color: var(--bg-color);
     background-attachment: fixed;
-}*/
+}
+:root{
+    --bg-color: #1f242d;
+    --theme-color: #01EEFF ;
+    --theme-color1: #323846 ;
+    --back-ground-color:#041632;
+}
+html{
+
+    overflow-x: hidden;
+}
+
+body{
+    background: var(--back-ground-color);
+
+}
 *{
     margin: 0;
     padding: 0;
@@ -25,12 +39,7 @@ section{
 }
 
 
-:root{
-    --bg-color: #1f242d;
-    --theme-color: #01EEFF ;
-    --theme-color1: #323846 ;
-    --back-ground-color:#041632;
-}
+
 ::-webkit-scrollbar-track {
     background: transparent;
 }
@@ -192,6 +201,10 @@ section{
 
 
 /*------------services Section---------------*/
+.services .topic h2{
+    margin-bottom: 5rem;
+}
+
 
 
 
