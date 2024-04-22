@@ -266,9 +266,20 @@ section{
     transform: scale(1.02);
 }
 
+/*------------Projects Section---------------*/
 
-
-
+#my_project{
+    background: var(--theme-color1);
+}
+#my_project h2{
+    margin-bottom: 2rem;
+}
+.projects-container{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
 
 
 
