@@ -337,6 +337,7 @@ section{
 /*------------Assignments Section---------------*/
 .assignments-section{
     color: var(--white-color);
+
 }
 
 .assignments-section h2{
@@ -354,10 +355,11 @@ section{
     border-radius: 2rem;
     box-shadow: 0 0 1rem var(--back-ground-color);
     overflow: hidden;
-    display: flex;
+    display: flow;
+    gap: 5rem;
 }
 .assignments-box img{
-    width: 100%;
+    width: 15%;
     transition: 1s ease;
 }
 
@@ -381,6 +383,7 @@ section{
 
 .assignments-box:hover .assignments-layer{
     transform: translate(0);
+
 }
 .assignments-layer h3{
     font-size:2rem;
@@ -399,3 +402,4 @@ section{
     background: var(--white-color);
     border-radius: 50%;
 }
+
