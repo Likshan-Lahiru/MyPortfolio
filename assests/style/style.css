@@ -410,3 +410,36 @@ section{
     background: var(--theme-color1);
 }
 
+.contact-me form{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+
+}
+
+.contact-me form .sender-box{
+   /* width: 70%;
+    height: 30%;*/
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact-me .sender-box input,
+.contact-me form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.3rem;
+    color: var(--theme-color1);
+    background: var(--white-color);
+    border-radius: 2rem;
+    margin: .7rem 0;
+
+}
+.contact-me form .sender-box input{
+    width: 49%;
+}
+
+.contact-me form textarea{
+    resize: none;
+}
