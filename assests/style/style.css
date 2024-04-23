@@ -353,7 +353,7 @@ section{
 .assignments-container .assignments-box{
     position: relative;
     border-radius: 2rem;
-    box-shadow: 0 0 1rem var(--back-ground-color);
+    box-shadow: 0 0 1rem var(--theme-color1);
     overflow: hidden;
     display: flow;
     gap: 5rem;
