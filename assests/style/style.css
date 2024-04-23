@@ -377,7 +377,7 @@ section{
     text-align: center;
     padding: 0 4rem;
     color: var(--white-color);
-    transform: translateY(100%);
+    transform: translatex(100%);
     transition: 2s ease;
 }
 
