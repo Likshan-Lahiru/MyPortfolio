@@ -452,3 +452,11 @@ section{
         resize: none;
     }
 
+/*------------Footer---------------*/
+
+.footer h3{
+
+    margin: 1rem;
+    color: var(--white-color);
+    font-size: small;
+}
