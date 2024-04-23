@@ -335,6 +335,7 @@ section{
 
 
 /*------------Assignments Section---------------*/
+
 .assignments-section{
     color: var(--white-color);
 
@@ -401,5 +402,11 @@ section{
     height: 5rem;
     background: var(--white-color);
     border-radius: 50%;
+}
+
+/*------------Contact-me Section---------------*/
+
+.contact-me{
+    background: var(--theme-color1);
 }
 
