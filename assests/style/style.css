@@ -453,10 +453,14 @@ section{
     }
 
 /*------------Footer---------------*/
-
+.footer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
 .footer h3{
-
     margin: 1rem;
     color: var(--white-color);
     font-size: small;
+    font-style: italic;
 }
