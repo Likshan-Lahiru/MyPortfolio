@@ -427,19 +427,28 @@ section{
 }
 .contact-me .sender-box input,
 .contact-me form textarea {
-    width: 100%;
-    padding: 1.5rem;
-    font-size: 1.3rem;
-    color: var(--theme-color1);
-    background: var(--white-color);
-    border-radius: 2rem;
-    margin: .7rem 0;
+        width: 100%;
+        padding: 1.5rem;
+        font-size: 1.3rem;
+        color: var(--theme-color1);
+        background: var(--back-ground-color);
+        border-radius: 2rem;
+        margin: .7rem 0;
+    transition: 1s ease;
 
-}
-.contact-me form .sender-box input{
-    width: 49%;
-}
+    }
+    .contact-me .sender-box input:hover,
+    .contact-me form textarea:hover {
+        box-shadow: var(--theme-color) 0px 8px 24px;
+    }
 
-.contact-me form textarea{
-    resize: none;
-}
+
+    .contact-me form .sender-box input{
+        width: 49%;
+
+    }
+
+    .contact-me form textarea{
+        resize: none;
+    }
+
