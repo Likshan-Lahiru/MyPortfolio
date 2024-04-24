@@ -3,7 +3,30 @@
         font-size: 75%;
     }
     section {
+        padding: 11rem 2% 2rem;
 
     }
 
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 7rem 2% 1rem;
+    }
+    .welcome-page h1{
+        font-size: 2rem;
+    }
+    .welcome-page h2{
+        font-size: 1.1rem;
+    }
+    .welcome-page h3{
+        font-size: 1.1rem;
+    }
+    .welcome-page p{
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 425px) {
+    
 }
