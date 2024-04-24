@@ -117,7 +117,9 @@ section{
 
 #profile-picture{
     background: transparent;
+    animation: up-down 3s ease-in-out infinite;
 }
+
 
 .home-text {
     width: 180rem;
