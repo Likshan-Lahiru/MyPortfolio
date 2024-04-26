@@ -442,7 +442,6 @@ section{
         width: 100%;
         padding: 1.5rem;
         font-size: 1.3rem;
-        /*color: var(--theme-color1);*/
         background: var(--back-ground-color);
         border-radius: 2rem;
         margin: .7rem 0;
