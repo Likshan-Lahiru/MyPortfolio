@@ -433,8 +433,6 @@ section{
 }
 
 .contact-me form .sender-box{
-   /* width: 70%;
-    height: 30%;*/
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
