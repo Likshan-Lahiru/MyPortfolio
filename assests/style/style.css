@@ -14,7 +14,6 @@ body{
     --black-color: #000000FF;
 }
 html{
-
     overflow-x: hidden;
 }
 
@@ -36,7 +35,7 @@ body{
 }
 section{
 
-    padding: 10rem 9% 2rem;
+    padding: 3rem 3% 2rem;
 
 }
 
@@ -101,6 +100,11 @@ section{
 
 .social-media-section a{
     font-size: 2rem;
+    color: var(--theme-color);
+
+}
+.social-media-section2 a{
+    font-size: 4rem;
     color: var(--theme-color);
 
 }
@@ -184,6 +188,25 @@ section{
     box-shadow: 0 0 1rem var(--back-ground-color
     );
 }
+.social-media-section2 a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    aspect-ratio: 1/1;
+    background: transparent;
+    border: 0.1rem solid var(--theme-color);
+    border-radius: 50%;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 1s ease;
+}
+.social-media-section2 a:hover{
+    background: var(--theme-color);
+    color: var(--theme-color1);
+    box-shadow: 0 0 1rem var(--back-ground-color
+    );
+}
+
 
 /*------------about me page css------------*/
 #aboutMe-page{
