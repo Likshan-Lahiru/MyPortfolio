@@ -59,6 +59,13 @@ section{
 
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+nav{
+    display: block;
+    unicode-bidi: isolate;
+    position: absolute;
+    right: 0;
+    margin-right: 2rem;
+}
 
 .navbar a{
     font-size: 1.2rem;
@@ -68,6 +75,11 @@ section{
 }
 .navbar a:hover{
     color: #00fff9;
+}
+#menu-icon{
+    font-size: 2rem;
+    color: var(--white-color);
+    display: none;
 }
 .webLogo{
     width: 1%;
@@ -104,7 +116,7 @@ section{
 
 }
 .social-media-section2 a{
-    font-size: 4rem;
+    font-size: 3rem;
     color: var(--theme-color);
 
 }
@@ -192,7 +204,7 @@ section{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 5rem;
+    width: 4rem;
     aspect-ratio: 1/1;
     background: transparent;
     border: 0.1rem solid var(--theme-color);
