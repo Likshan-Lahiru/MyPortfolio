@@ -1,4 +1,7 @@
 @media (max-width: 1200px) {
+    /*#pic{
+        content: url("assests/pic/my_png.png");
+    }*/
     html {
         font-size: 75%;
     }
@@ -9,22 +12,48 @@
 }
 
 @media (max-width: 768px) {
+    #profile-picture{
+        width: 220%;
+
+
+
+    }
+    .social-media-section{
+        bottom: 10px;
+        right: 20px;
+    }
+    #pic{
+        width: 50vw;
+        height: 100vh;
+        content:url("https://i.ibb.co/712QKSc/fullpng.png");
+    }
+    .welcome-page{
+        width: 100vw;
+        height: 190vh;
+    }
+   /* html {
+        font-size: 60%;
+    }*/
     section {
-        padding: 7rem 2% 1rem;
+        padding: 7rem 5% 1rem;
     }
     .welcome-page h1{
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .welcome-page h2{
-        font-size: 1.1rem;
+        font-size: 1.5rem;
     }
     .welcome-page h3{
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
     .welcome-page p{
 
-        font-size: 1.1rem;
+        font-size: 0.8rem;
+    }
+    .social-media-section{
+        display: flex;
+
     }
 
 
@@ -32,5 +61,21 @@
 }
 
 @media (max-width: 425px) {
-    
+    section {
+        padding: 3rem 2% 1rem;
+    }
+    .welcome-page h1{
+        font-size: 1.5rem;
+    }
+
+    .welcome-page h2{
+        font-size: 0.9rem;
+    }
+    .welcome-page h3{
+        font-size: 0.8rem;
+    }
+    .welcome-page p{
+
+        font-size: 0.3rem;
+    }
 }
