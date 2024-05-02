@@ -182,30 +182,65 @@
         grid-template-columns: 1fr;
     }
 }
-@media (min-width: 685px) {
-    .services{
+
+@media (max-width: 525px) {
+    
+    .projects-container{
         grid-template-columns: 1fr;
     }
-}
-@media (max-width: 425px) {
-    .projects-container{
+    .services{
         grid-template-columns: 1fr;
     }
     /*section {
         padding: 3rem 2% 1rem;
     }*/
     .welcome-page h1{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .welcome-page h2{
-        font-size: 0.9rem;
+        font-size: 1.5rem;
     }
     .welcome-page h3{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     .welcome-page p{
 
-        font-size: 0.3rem;
+        font-size: 0.8rem;
     }
+}
+@media (max-width: 425px) {
+    .social-media-section{
+        justify-content: center;
+        align-items: center;
+        gap: -1rem;
+    }
+    div.social-media-section{
+        display: flex;
+    }
+    div.social-media-section2{
+        display: none;
+    }
+    #pic{
+        width: 70vw;
+        height: 50vh;
+        content:url("https://i.ibb.co/LhFGStQ/my-png3.png");
+
+    }
+
+    .welcome-page{
+        height: 110vh;
+        padding: 30rem 40% 20rem;
+        flex-direction: column;
+    }
+    .home-text{
+        width: fit-content;
+        aspect-ratio: 1/1;
+        flex-direction: column;
+        gap: -10px;
+        padding: -1rem 80% 20rem;
+
+    }
+
+
 }
