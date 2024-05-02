@@ -117,18 +117,18 @@
         padding: 1rem 5% 20rem;
     }
     .welcome-page h1{
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     .welcome-page h2{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .welcome-page h3{
-        font-size: 1.2rem;
+        font-size: 1.7rem;
     }
     .welcome-page p{
 
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     .social-media-section{
         display: flex;
@@ -172,13 +172,18 @@
         flex-direction: column-reverse;
         margin-top: 3rem;
         padding:5rem 1% 2rem;
+        gap: -5rem;
     }
     .about-me #outline-picture{
         width: 70vw;
         margin-top: 4rem;
     }
 }
-
+@media (max-width: 750px) {
+    .about-me{
+        grid-template-columns: 1fr;
+    }
+}
 @media (max-width: 425px) {
     /*section {
         padding: 3rem 2% 1rem;
