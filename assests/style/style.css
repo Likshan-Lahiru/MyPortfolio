@@ -36,7 +36,7 @@ body{
 section{
 
     padding: 3rem 3% 2rem;
-
+    overflow: hidden;
 }
 
 
