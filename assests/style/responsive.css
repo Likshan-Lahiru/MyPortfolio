@@ -229,7 +229,7 @@
     }
 
     .welcome-page{
-        height: 110vh;
+        height: fit-content;
         padding: 30rem 40% 20rem;
         flex-direction: column;
     }
