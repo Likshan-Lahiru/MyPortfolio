@@ -160,6 +160,23 @@
         display: block;
     }
 
+
+    /*===========projects===============*/
+    .projects-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /*===========About===============*/
+    .about-me{
+        flex-direction: column-reverse;
+        margin-top: 3rem;
+        padding:5rem 1% 2rem;
+    }
+    .about-me #outline-picture{
+        width: 70vw;
+        margin-top: 4rem;
+    }
 }
 
 @media (max-width: 425px) {

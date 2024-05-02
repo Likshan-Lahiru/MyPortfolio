@@ -73,7 +73,8 @@ nav{
     margin-left: 1rem;
     transition: 1s;
 }
-.navbar a:hover{
+.navbar a:hover,
+.navbar a.active {
     color: #00fff9;
 }
 #menu-icon{

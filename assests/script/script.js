@@ -1,14 +1,3 @@
-/*
-const menuBtn = document.querySelector('.menu-btn');
-const navToggle = document.querySelector('.navbar');
-const navContainer = document.querySelector('header');
-
-menuBtn.addEventListener('click', () => {
-    menuBtn.classList.toggle('active');
-    navToggle.classList.toggle('active');
-    navContainer.classList.toggle('active');
-});
-*/
 
 
 
@@ -21,6 +10,9 @@ menuIcon.onclick = () => {
     navbar.classList.toggle('active');
 };
 
+/*========================================*/
+let header = document.querySelector('header');
+header.classList.toggle('sticky',window.scrollY>100);
 /*========================================*/
 let section = document.querySelectorAll('section');
 let navLikns = document.querySelectorAll('header nav a');
@@ -40,3 +32,7 @@ window.onscroll= () =>{
         }
     })
 }
+
+/*========================================*/
+ menuIcon.classList.remove('fa-x');
+ navbar.classList.remove('active');
