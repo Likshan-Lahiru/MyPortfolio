@@ -178,13 +178,19 @@
         width: 70vw;
         margin-top: 4rem;
     }
+    .services{
+        grid-template-columns: 1fr;
+    }
 }
-@media (max-width: 750px) {
-    .about-me{
+@media (min-width: 685px) {
+    .services{
         grid-template-columns: 1fr;
     }
 }
 @media (max-width: 425px) {
+    .projects-container{
+        grid-template-columns: 1fr;
+    }
     /*section {
         padding: 3rem 2% 1rem;
     }*/
