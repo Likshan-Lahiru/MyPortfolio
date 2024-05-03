@@ -110,6 +110,9 @@ nav{
     justify-content: center;
     align-items: center;
 }
+.animation-text{
+    color: var(--theme-color);
+}
 
 .social-media-section a{
     font-size: 2rem;

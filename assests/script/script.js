@@ -53,3 +53,13 @@ ScrollReveal().reveal('.home-img, .about-me, .project-box ', { origin: 'bottom' 
 ScrollReveal().reveal('.home-img, .about-me ', { origin: 'bottom' });
 ScrollReveal().reveal(' .project-box, .home-text h1', { origin: 'left' });
 ScrollReveal().reveal(' .text-area, .services-box ', { origin: 'right' });
+
+/*========================================*/
+
+const typed =new Typed('.animation-text',{
+   strings:['Fontend Developer','Software Engineer','Athlete'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: true,
+    loop: true
+});
