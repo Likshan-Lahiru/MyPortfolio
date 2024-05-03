@@ -183,7 +183,7 @@
     }
 }
 
-@media (max-width: 525px) {
+@media (max-width: 425px) {
     
     .projects-container{
         grid-template-columns: 1fr;
@@ -230,7 +230,7 @@
 
     .welcome-page{
 
-        height: 120vh;
+        height: 100vh;
         padding: 30rem 40% 20rem;
         flex-direction: column;
     }
@@ -244,4 +244,9 @@
     }
 
 
+}
+@media (max-width: 450px) {
+    .contact-me form .sender-box input{
+        width: 100%;
+    }
 }
