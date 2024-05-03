@@ -234,7 +234,7 @@
 
     .welcome-page{
 
-        height: 180vh;
+        height: 120vh;
         padding: 30rem 40% 20rem;
         flex-direction: column;
     }
@@ -245,6 +245,10 @@
         gap: -10px;
         padding: -1rem 80% 20rem;
 
+    }
+    .main{
+        justify-content: center;
+        align-items: center;
     }
 
 
