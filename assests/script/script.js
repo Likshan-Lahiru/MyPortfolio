@@ -36,3 +36,17 @@ window.onscroll= () =>{
 /*========================================*/
  menuIcon.classList.remove('fa-x');
  navbar.classList.remove('active');
+
+
+
+/*========================================*/
+ScrollReveal({
+    reset: true,
+    distance: '80px',
+    duration:2000,
+    delay: 200
+
+});
+
+ScrollReveal().reveal('.home-text, .topic', { origin: 'top' });
+ScrollReveal().reveal('.home-img, .about-me ', { origin: 'bottom' });

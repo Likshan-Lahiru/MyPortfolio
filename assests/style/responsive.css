@@ -184,6 +184,10 @@
 }
 
 @media (max-width: 425px) {
+
+    .topic{
+        font-size: 2rem;
+    }
     
     .projects-container{
         grid-template-columns: 1fr;
