@@ -101,7 +101,7 @@
 
     #pic{
         width: 50vw;
-        height: 70vh;
+        height: 50vh;
         content:url("https://i.ibb.co/712QKSc/fullpng.png");
     }
     .welcome-page{
@@ -189,6 +189,9 @@
 
 @media (max-width: 425px) {
 
+    header{
+
+    }
     .topic{
         font-size: 2rem;
     }
