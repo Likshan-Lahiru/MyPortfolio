@@ -44,6 +44,10 @@
 
 @media (max-width: 768px) {
 
+    #nokey{
+        width: fit-content;
+        height: fit-content;
+    }
 
     .welcome-page{
         margin-top: -1rem;
