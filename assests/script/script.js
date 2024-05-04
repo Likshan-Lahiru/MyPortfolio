@@ -52,7 +52,7 @@ ScrollReveal().reveal('.home-text, .topic', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .about-me, .project-box ', { origin: 'bottom' });
 ScrollReveal().reveal('.home-img, .about-me ', { origin: 'bottom' });
 ScrollReveal().reveal(' .project-box, .home-text h1', { origin: 'left' });
-ScrollReveal().reveal(' .text-area, .services-box ', { origin: 'right' });
+ScrollReveal().reveal(' .text-area, .services-box ,#second-div h2 ', { origin: 'right' });
 
 /*========================================*/
 
@@ -62,4 +62,20 @@ const typed =new Typed('.animation-text',{
     backSpeed: 100,
     backDelay: true,
     loop: true
+});
+
+
+
+/*===================================*/
+const cursor = document.querySelector('.cursor');
+
+document.addEventListener('mousemove', e => {
+    cursor.setAttribute("style", "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px;")
+});
+
+document.addEventListener('click', e => {
+    cursor.classList.add("expand");
+    setTimeout(() => {
+        cursor.classList.remove("expand");
+    }, 500);
 });
