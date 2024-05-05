@@ -413,6 +413,8 @@ nav{
     position: relative;
     border-radius: 2rem;
     box-shadow: 0 0 1rem var(--theme-color1);
+    display: inline-flex;
+
     overflow: hidden;
     display: flow;
     gap: 5rem;

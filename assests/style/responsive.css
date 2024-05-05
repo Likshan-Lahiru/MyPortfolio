@@ -44,9 +44,16 @@
 
 @media (max-width: 768px) {
 
-    #nokey{
-        width: fit-content;
-        height: fit-content;
+    .assignments-container h3 ,h4{
+        font-size: 5%;
+
+    }
+    .assignments-container .btn{
+        justify-content: center;
+        align-items: center;
+        /*width: 10px;
+        height: .1px;*/
+        font-size: 10px;
     }
 
     .welcome-page{
@@ -221,6 +228,17 @@
     }
 }
 @media (max-width: 425px) {
+    .assignments-container h3 ,h4{
+        font-size: 25%;
+
+    }
+    .assignments-container .btn{
+        justify-content: center;
+        align-items: center;
+        width: 10px;
+        height: .1px;
+        font-size: 5px;
+    }
     .social-media-section{
         justify-content: center;
         align-items: center;
