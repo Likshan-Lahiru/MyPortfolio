@@ -454,7 +454,7 @@ nav{
     margin: 3rem 0 1rem;
 }
 
-.assignments-layer a{
+/*.assignments-layer a{
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -462,7 +462,7 @@ nav{
     height: 5rem;
     background: var(--white-color);
     border-radius: 50%;
-}
+}*/
 
 /*------------Contact-me Section---------------*/
 

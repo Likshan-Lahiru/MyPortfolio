@@ -235,8 +235,8 @@
     .assignments-container .btn{
         justify-content: center;
         align-items: center;
-        width: 10px;
-        height: .1px;
+        width: 5px;
+        height: .1rem;
         font-size: 5px;
     }
     .social-media-section{
