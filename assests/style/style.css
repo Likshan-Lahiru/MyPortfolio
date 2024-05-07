@@ -127,10 +127,7 @@ nav{
 }
 
 #welcome-page{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /*background: #041632;*/
+
     color: var(--white-color);
 
 }

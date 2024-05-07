@@ -1,0 +1,518 @@
+body{
+    display: block;
+    color-scheme: dark;
+    background: radial-gradient(circle at top center, rgba(125, 188, 255, 0.5) 0, transparent 50%, transparent 100%);
+    background-color: var(--bg-color);
+    background-attachment: fixed;
+}
+
+:root{
+    --bg-color: #1f242d;
+    --theme-color: #01EEFF ;
+    --theme-color1: #323846 ;
+    --back-ground-color:#041632;
+    --white-color: #ffff;
+    --black-color: #000000FF;
+}
+html{
+    overflow-x: hidden;
+}
+
+body{
+    background: var(--back-ground-color);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins' ,sans-serif;
+    /*cursor: none;*/
+
+
+}
+section{
+
+    padding: 3rem 3% 2rem;
+    overflow: hidden;
+}
+.me-text {
+    color: var(--theme-color);
+
+}
+.topic{
+    margin: 2rem 0 3rem;
+}
+
+.topic{
+    text-align: center;
+    font-size: 3rem;
+    color: var(--white-color);
+}
+
+
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 3%;
+    background: #041632;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+nav{
+    display: block;
+    unicode-bidi: isolate;
+    position: absolute;
+    right: 0;
+    /*margin-right: 2rem;*/
+}
+
+.navbar a{
+    font-size: 1.2rem;
+    color: var(--white-color);
+    margin-left: 1rem;
+    transition: 1s;
+}
+.navbar a:hover,
+.navbar a.active {
+    color: #00fff9;
+}
+#menu-icon{
+    font-size: 2rem;
+    color: var(--white-color);
+    display: none;
+}
+.webLogo{
+    width: 1%;
+    aspect-ratio: 1/1;
+}
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--theme-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--theme-color);
+    color: var(--black-color);
+    transition: 1s ;
+}
+.btn:hover{
+    box-shadow: 0 0 3rem var(--theme-color);
+    color: var(--white-color);
+    background: var(--back-ground-color);
+    transform: scale(1.02);
+
+}
+
+/*================================*/
+
+.information-section{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*background: #041632;*/
+        color: var(--white-color);
+        margin-top: 10vh;
+}
+#aboutme section:hover .shine {
+    left: 160%;
+}
+
+
+#aboutme .bg-image {
+    background-image: url('/assests/pic/fullpng.png');
+    filter: opacity(50%);
+}
+
+#aboutme>section {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 20px;
+    border-radius: 25px;
+    padding: 2vw;
+}
+
+.insta-template {
+    /*background-color: #ff0000;*/
+    width: 30%;
+    aspect-ratio: 2/3;
+    /* height: 650px; */
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    padding: 1vw;
+    margin-right: 2vw;
+}
+
+.upper-items {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.upper-items i {
+    position: absolute;
+    right: 0;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.upper-items h3 {
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 18px;
+    margin-left: 7px;
+    color: #ffffff;
+}
+
+.insta-profile {
+    background-image: url("https://i.ibb.co/LhFGStQ/my-png3.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    height: 90%;
+    aspect-ratio: 1;
+}
+
+.aboutme-imgs {
+    width: 100%;
+    aspect-ratio: 1;
+    background-color: #ffffff;
+    position: relative;
+}
+.aboutme-imgs-swiper {
+    height: 150%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.aboutme-imgs .swiper-slide {
+    position: relative;
+}
+
+.aboutme-imgs img {
+    width: 91%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#aboutme .aboutme-imgs-swiper-pagination {
+    transform: scale(.5);
+}
+
+.insta-icons {
+    height: 7%;
+    width: 100%;
+    position: relative;
+    padding-inline: 7px;
+}
+
+.insta-icons img {
+    height: 90%;
+    aspect-ratio: 1;
+    cursor: pointer;
+    transition: .5s;
+    z-index: 20;
+}
+
+.insta-icons img:hover{
+    transform: scale(1.2);
+}
+
+.insta-icons img:last-child {
+    margin-top: 2px;
+    position: absolute;
+    right: 0;
+}
+
+.insta-description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 7px;
+}
+
+.insta-description h3, .insta-description h4 {
+    color: #ffffff;
+    margin-top: 7px;
+}
+
+.insta-description h3 {
+    font-weight: lighter;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 16px;
+}
+
+.insta-description h3:nth-child(2)::before {
+    content: "dilshan_rangaka ";
+    font-weight: 600;
+}
+
+.insta-description h4 {
+    font-weight: lighter;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 14px;
+}
+
+.aboutme-details {
+    position: relative;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+.short-line {
+    width: 130px;
+    height: 5px;
+    background-color: var(--theme-color);
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.aboutme-details>p {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+p span {
+    color: var(--theme-color);
+}
+
+.aboutme-details>p:first-child {
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.aboutme-p2 {
+    font-weight: 200;
+}
+
+.informations {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    gap: 30px;
+}
+
+.informations p {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+.aboutme-details a button {
+    width: 15vw;
+    height: 4vw;
+    background-color: var(--theme-color);
+    color: #ffffff;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+/*================*/
+.education:hover .shine {
+    left: 230%;
+}
+#resume .bg-image {
+    filter: opacity(40%);
+    /*background-image: url('');*/
+}
+
+.education {
+    width: 100%;
+    height: 1700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 30px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.education>h1, .skills>h1 {
+    font-size: 64px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.education>h1::before, .education>h1::after,  .skills>h1::before,  .skills>h1::after {
+    content: "-";
+    color: var(--theme-color);
+}
+
+.points-line {
+    width: 100%;
+    height: 80%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.h-line {
+    width: 5px;
+    height: 100%;
+    background-color: var(--theme-color);
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.edu-point {
+    position: relative;
+    width: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.point {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: var(--theme-color1);
+    border: 5px solid #01EEFF;
+}
+
+.edu-des {
+    position: absolute;
+    width: 40vw;
+    /* border: 1px solid blue; */
+    top: -5px;
+    right: -41vw;
+}
+
+.edu-point:nth-child(odd) .edu-des{
+    left: -41vw;
+}
+
+.edu-point:nth-child(odd) .edu-des h1, .edu-point:nth-child(odd) .edu-des p{
+    text-align: right;
+}
+
+.edu-des h1 {
+    margin: 0;
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    color: #01EEFF;
+    font-weight: 700;
+}
+
+.edu-des p {
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+.edu-point:last-child .point {
+    display: none;
+}
+
+.edu-point:last-child i {
+    position: absolute;
+    top: -28px;
+    /* transform: rotate(90deg); */
+    font-size: 46px;
+    color: #01EEFF;
+}
+
+.skills {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 70px;
+}
+
+.skills h1 {
+    width: fit-content;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.soft-skills, .hard-skills {
+    border-radius: 25px;
+    width: 47%;
+    height: 70%;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.soft-skills:hover .shine, .hard-skills:hover .shine {
+    left: 180%;
+}
+
+.soft-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.soft-skills h3 {
+    font-size: 32px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 200;
+}
+
+.soft-skills h3::before {
+    content: "# ";
+    color: var(--theme-color);
+}
+
+.hard-skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* justify-content: center; */
+    align-items: center;
+}
+.hard-skills img {
+    position: relative;
+    left: 20%;
+}
+.education-section{
+    color: white;
+}
+
+
+.hard-skills glass_pane> img{
+    color: var(--theme-color);
+    background-color: #00fff9;
+}
+
+#back-button{
+    color: white;
+}
