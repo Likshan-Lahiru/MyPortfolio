@@ -128,6 +128,9 @@ nav{
         /*background: #041632;*/
         color: var(--white-color);
         margin-top: 10vh;
+        padding: 7rem 2rem;
+
+    /*background-color: #ff253a;*/
 }
 #aboutme section:hover .shine {
     left: 160%;
@@ -284,6 +287,7 @@ nav{
     width: 65%;
     display: flex;
     flex-direction: column;
+    padding: 2rem 1rem;
 }
 
 .short-line {
@@ -347,6 +351,7 @@ p span {
 }
 
 .education {
+
     width: 100%;
     height: 1700px;
     display: flex;
@@ -356,6 +361,7 @@ p span {
     padding: 30px;
     border-radius: 25px;
     overflow: hidden;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 5px, rgb(1, 238, 255) 0px 4px 6px -1px, rgb(0, 255, 249) 0px 1px 0px inset;
 }
 
 .education>h1, .skills>h1 {
@@ -453,6 +459,7 @@ p span {
     justify-content: space-between;
     position: relative;
     margin-top: 70px;
+    /*background-color: #ff253a;*/
 }
 
 .skills h1 {
@@ -480,6 +487,8 @@ p span {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    /*background-color: black;*/
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 5px, rgb(1, 238, 255) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
 .soft-skills h3 {
@@ -498,6 +507,7 @@ p span {
     grid-template-columns: repeat(3, 1fr);
     /* justify-content: center; */
     align-items: center;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 5px, rgb(1, 238, 255) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 .hard-skills img {
     position: relative;
@@ -516,3 +526,4 @@ p span {
 #back-button{
     color: white;
 }
+
