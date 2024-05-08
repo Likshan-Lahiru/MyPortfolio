@@ -14,6 +14,7 @@ body{
     --white-color: #ffff;
     --black-color: #000000FF;
 }
+
 html{
     overflow-x: hidden;
 }
@@ -138,7 +139,7 @@ nav{
 
 
 #aboutme .bg-image {
-    background-image: url('/assests/pic/fullpng.png');
+    background-image: url('/assets/pic/fullpng.png');
     filter: opacity(50%);
 }
 
@@ -362,6 +363,15 @@ p span {
     border-radius: 25px;
     overflow: hidden;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 5px, rgb(1, 238, 255) 0px 4px 6px -1px, rgb(0, 255, 249) 0px 1px 0px inset;
+    transition: 3s;
+}
+.education:hover{
+    /*box-shadow: 0 0 3rem var(--theme-color);*/
+    color: var(--white-color);
+    background: var(--back-ground-color);
+    transform: scale(1.02);
+    box-shadow: rgba(0, 0, 255, 0.25) 0px 30px 60px -12px inset, rgb(0, 255, 249) 0px 40px 36px -18px inset;
+
 }
 
 .education>h1, .skills>h1 {
@@ -489,6 +499,13 @@ p span {
     justify-content: space-evenly;
     /*background-color: black;*/
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 5px, rgb(1, 238, 255) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    transition: 3s;
+}
+.soft-skills:hover{
+    color: var(--white-color);
+    background: var(--back-ground-color);
+    transform: scale(1.02);
+    box-shadow: rgb(59, 69, 81) 0px 30px 60px -12px inset, rgb(0, 255, 249) 0px 10px 10px -18px inset;
 }
 
 .soft-skills h3 {
@@ -508,6 +525,13 @@ p span {
     /* justify-content: center; */
     align-items: center;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 5px, rgb(1, 238, 255) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    transition: 1s;
+}
+.hard-skills:hover{
+    color: var(--white-color);
+    background: var(--back-ground-color);
+    transform: scale(1.02);
+    box-shadow: rgb(59, 69, 81) 0px 30px 60px -12px inset, rgb(0, 255, 249) 0px 10px 10px -18px inset;
 }
 .hard-skills img {
     position: relative;
@@ -515,6 +539,12 @@ p span {
 }
 .education-section{
     color: white;
+}
+.skills-img{
+    transition: 1s;
+}
+.skills-img:hover{
+    box-shadow: rgb(0, 255, 249) 0px 5px 5px, rgb(0, 255, 249) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 
@@ -527,3 +557,15 @@ p span {
     color: white;
 }
 
+.footer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: var(--theme-color1);
+}
+.footer h3{
+    margin: 1rem;
+    color: var(--white-color);
+    font-size: small;
+    font-style: italic;
+}

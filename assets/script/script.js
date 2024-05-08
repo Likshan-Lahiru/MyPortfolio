@@ -50,7 +50,7 @@ ScrollReveal({
 
 ScrollReveal().reveal('.home-text, .topic', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .about-me, .project-box ', { origin: 'bottom' });
-ScrollReveal().reveal('.home-img, .about-me, .more, more1 ', { origin: 'bottom' });
+/*ScrollReveal().reveal('.home-img, .about-me, .edu-des ', { origin: 'bottom' });*/
 ScrollReveal().reveal(' .project-box, .home-text h1, .test', { origin: 'left' });
 ScrollReveal().reveal(' .text-area, .services-box ,#second-div h2 ', { origin: 'right' });
 
