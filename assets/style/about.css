@@ -138,25 +138,25 @@ nav{
 }
 
 
-#aboutme .bg-image {
+/*#aboutme .bg-image {
     background-image: url('/assets/pic/fullpng.png');
     filter: opacity(50%);
-}
+}*/
 
-#aboutme>section {
+/*.information-section>div {
     display: flex;
     align-items: center;
     position: relative;
     margin-top: 20px;
     border-radius: 25px;
     padding: 2vw;
-}
+}*/
 
-.insta-template {
-    /*background-color: #ff0000;*/
+/*.insta-template {
+    !*background-color: #ff0000;*!
     width: 30%;
     aspect-ratio: 2/3;
-    /* height: 650px; */
+    !* height: 650px; *!
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -165,54 +165,54 @@ nav{
     position: relative;
     padding: 1vw;
     margin-right: 2vw;
-}
+}*/
 
-.upper-items {
+/*.upper-items {
     width: 100%;
     height: 10%;
     display: flex;
     align-items: center;
     position: relative;
-}
+}*/
 
-.upper-items i {
+/*.upper-items i {
     position: absolute;
     right: 0;
     color: #ffffff;
     font-size: 25px;
-}
+}*/
 
-.upper-items h3 {
+/*.upper-items h3 {
     font-family: 'Instrument Sans', sans-serif;
     font-size: 18px;
     margin-left: 7px;
     color: #ffffff;
-}
+}*/
 
-.insta-profile {
+/*.insta-profile {
     background-image: url("https://i.ibb.co/LhFGStQ/my-png3.png");
     background-size: cover;
     background-position: center;
     border-radius: 50%;
     height: 90%;
     aspect-ratio: 1;
-}
+}*/
 
-.aboutme-imgs {
+/*.aboutme-imgs {
     width: 100%;
     aspect-ratio: 1;
     background-color: #ffffff;
     position: relative;
-}
-.aboutme-imgs-swiper {
+}*/
+/*.aboutme-imgs-swiper {
     height: 150%;
     width: 100%;
     position: absolute;
     bottom: 0;
     overflow: hidden;
-}
+}*/
 
-.aboutme-imgs .swiper-slide {
+/*.aboutme-imgs .swiper-slide {
     position: relative;
 }
 
@@ -223,9 +223,9 @@ nav{
     left: 0;
     right: 0;
     margin: auto;
-}
+}*/
 
-#aboutme .aboutme-imgs-swiper-pagination {
+/*#aboutme .aboutme-imgs-swiper-pagination {
     transform: scale(.5);
 }
 
@@ -234,70 +234,70 @@ nav{
     width: 100%;
     position: relative;
     padding-inline: 7px;
-}
+}*/
 
-.insta-icons img {
+/*.insta-icons img {
     height: 90%;
     aspect-ratio: 1;
     cursor: pointer;
     transition: .5s;
     z-index: 20;
-}
+}*/
 
-.insta-icons img:hover{
+/*.insta-icons img:hover{
     transform: scale(1.2);
-}
+}*/
 
-.insta-icons img:last-child {
+/*.insta-icons img:last-child {
     margin-top: 2px;
     position: absolute;
     right: 0;
-}
+}*/
 
-.insta-description {
+/*.insta-description {
     width: 100%;
     display: flex;
     flex-direction: column;
     padding-inline: 7px;
-}
+}*/
 
-.insta-description h3, .insta-description h4 {
+/*.insta-description h3, .insta-description h4 {
     color: #ffffff;
     margin-top: 7px;
-}
+}*/
 
-.insta-description h3 {
+/*.insta-description h3 {
     font-weight: lighter;
     font-family: 'Instrument Sans', sans-serif;
     font-size: 16px;
-}
+}*/
 
-.insta-description h3:nth-child(2)::before {
+/*.insta-description h3:nth-child(2)::before {
     content: "dilshan_rangaka ";
     font-weight: 600;
-}
+}*/
 
-.insta-description h4 {
+/*.insta-description h4 {
     font-weight: lighter;
     font-family: 'Instrument Sans', sans-serif;
     font-size: 14px;
-}
+}*/
 
-.aboutme-details {
+/*.aboutme-details {
     position: relative;
     width: 65%;
     display: flex;
     flex-direction: column;
     padding: 2rem 1rem;
-}
+}*/
 
-.short-line {
+/*.short-line {
     width: 130px;
     height: 5px;
     background-color: var(--theme-color);
     margin-bottom: 20px;
     border-radius: 3px;
-}
+}*/
 
 .aboutme-details>p {
     font-family: 'Roboto Flex', sans-serif;
@@ -405,7 +405,7 @@ p span {
 
 .edu-point {
     position: relative;
-    width: 3%;
+    width: 1%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -483,9 +483,11 @@ p span {
 
 .soft-skills, .hard-skills {
     border-radius: 25px;
-    width: 47%;
-    height: 70%;
-    padding: 30px;
+    /*width: 47%;
+    height: 70%;*/
+    width: 50rem;
+    height: 30rem;
+    padding: 2rem;
     overflow: hidden;
 }
 
@@ -494,7 +496,7 @@ p span {
 }
 
 .soft-skills {
-    display: flex;
+    display: grid;
     flex-direction: column;
     justify-content: space-evenly;
     /*background-color: black;*/
@@ -548,10 +550,7 @@ p span {
 }
 
 
-.hard-skills glass_pane> img{
-    color: var(--theme-color);
-    background-color: #00fff9;
-}
+
 
 #back-button{
     color: white;
@@ -569,3 +568,4 @@ p span {
     font-size: small;
     font-style: italic;
 }
+

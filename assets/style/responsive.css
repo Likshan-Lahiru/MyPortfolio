@@ -11,6 +11,7 @@
 */
 
 }
+
 @media (max-width: 2200px) {
     /*#pic{
         content: url("assests/pic/my_png.png");
@@ -43,7 +44,82 @@
 }
 
 @media (max-width: 768px) {
+    .information-section{
+        padding: 5rem 5rem;
+        display: grid;
+        justify-content: center;
+        align-items: center;
 
+    }
+    .h-line {
+        width: 5px;
+        height: 100%;
+        background-color: var(--theme-color);
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+    .home-img{
+
+        padding: 2rem 1rem;
+
+    }
+    .aboutme-details p{
+        font-size: 2rem;
+    }
+    .aboutme-p2{
+        font-size: 20%;
+    }
+    .informations>p{
+        font-size: 120%;
+    }
+
+    .edu-des h1{
+        font-size: 130%;
+    }
+    .edu-des p{
+        font-size: 180%;
+    }
+    .skills{
+        width: 100%;
+        height: 700px;
+        display: grid;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        margin-top: 70px;
+
+    }
+    .soft-skills {
+        border-radius: 25px;
+        /*width: 47%;
+        height: 70%;*/
+        width: 40rem;
+        height: 20rem;
+        padding: 2rem;
+        overflow: hidden;
+    }
+    .hard-skills{
+        border-radius: 25px;
+        /*width: 47%;
+        height: 70%;*/
+        width: 40rem;
+        height: 35rem;
+        padding: 2rem;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        /* justify-content: center; */
+        align-items: center;
+    }
+    .soft-skills h3{
+        font-size: 180%;
+    }
+    .hard-skills img{
+        width: 8rem;
+        height: 8rem;
+    }
     .assignments-container h3 ,h4{
         font-size: 5%;
 
