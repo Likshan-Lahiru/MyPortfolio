@@ -121,7 +121,7 @@
         height: 8rem;
     }
     .assignments-container h3 ,h4{
-        font-size: 5%;
+        font-size: 60%;
 
     }
     .assignments-container .btn{
@@ -305,7 +305,7 @@
 }
 @media (max-width: 425px) {
     .assignments-container h3 ,h4 ,p{
-        font-size: 15%;
+        font-size: 30%;
 
     }
     .assignments-container .btn{
