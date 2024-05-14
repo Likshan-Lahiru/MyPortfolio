@@ -1,0 +1,31 @@
+section{
+    /*position: relative;*/
+}
+.main-div{
+    padding: 5rem 30rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+    font-size: 50%;
+
+}
+
+.png-men{
+    padding-top: 10rem;
+    display: flex;
+}
+.second-div{
+    position: absolute;
+    top: 3rem;
+    padding-left: 5rem;
+
+
+}
+.first-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    color: #00ff48;
+}

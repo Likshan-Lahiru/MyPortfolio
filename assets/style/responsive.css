@@ -359,3 +359,17 @@
         width: 100%;
     }
 }
+
+@media (max-width: 321px) {
+    .assignments-container h3 ,h4 ,p{
+        font-size: 5%;
+
+    }
+    .assignments-container .btn{
+        justify-content: center;
+        align-items: center;
+        width: 2px;
+        height: .1rem;
+        font-size: 5px;
+    }
+}
