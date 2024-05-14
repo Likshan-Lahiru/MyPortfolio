@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task 01</title>
+    <link rel="stylesheet" href="assest/normalize.css">
+    <style>
+        :root{
+            --width: 150px;
+            --height:75px;
+        }
+        div{
+            width: var(--width);
+            height: var(--height);
+            background-color: orange;
+            border-radius: 15px;
+
+            animation-name: animi;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        @keyframes animi {
+            0%{
+                margin: 0;
+                margin-top: 0;
+                background-color: #ff00dd;
+                transform: rotate(0deg);
+            }
+            25%{
+                margin-left: calc(100vw - 100px);
+                margin-top: 0;
+                background-color: #ff253a;
+                transform: rotate(180deg);
+            }
+            50%{
+                margin-left: calc(100vw - 100px);
+                margin-top: calc(100vh - 75px);
+                background-color: blue;
+
+                transform: rotate(0deg);
+            }
+            75%{
+                margin-left: 0;
+                margin-top: calc(100vh - 75px);
+
+
+                transform: rotate(-180deg);
+
+
+            }
+
+        }
+
+    </style>
+
+</head>
+<body>
+<div></div>
+
+</body>
+</html>

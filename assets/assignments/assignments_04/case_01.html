@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 20px;">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS case 01</title>
+
+    <link rel="stylesheet" href="assets/normalize.css">
+    <link rel="stylesheet" href="file/assests/fontawesome-free-6.5.1-web/css/all.css">
+
+    <style>
+
+        section {
+            height: fit-content;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+
+        }
+
+        section>div {
+            background-color: purple;
+            color: white;
+            width: 250px;
+            height: 60px;
+            margin: 10px 0px;
+
+            position: relative;
+
+            margin-left: -192px;
+            cursor: pointer;
+
+            transition-duration: 1s;
+        }
+
+        section>div:hover {
+            margin-left: 0px;
+        }
+
+        section>div>h3 {
+            height: fit-content;
+
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 20px;
+            margin: auto;
+
+        }
+
+        section>div>div {
+            height: 20px;
+
+            position: absolute;
+            right: 5px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+<section>
+
+    <div>
+        <h3>Menu One</h3>
+        <div><i class="fa-solid fa-address-book"></i></div>
+    </div>
+
+    <div>
+        <h3>Menu Two</h3>
+        <div><i class="fa-solid fa-truck-medical"></i></div>
+    </div>
+
+    <div>
+        <h3>Menu Three</h3>
+        <div><i class="fa-solid fa-globe"></i></div>
+    </div>
+
+    <div>
+        <h3>Menu Four</h3>
+        <div><i class="fa-solid fa-bars"></i></i></div>
+    </div>
+
+    <div>
+        <h3>Menu Five</h3>
+        <div><i class="fa-solid fa-cart-arrow-down"></i></div>
+    </div>
+
+
+
+</section>
+
+
+
+<script src="file/assests/fontawesome-free-6.5.1-web/js/all.min.js"></script>
+
+</body>
+
+</html>

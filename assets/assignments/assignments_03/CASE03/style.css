@@ -1,0 +1,61 @@
+.frame1 {
+    position: fixed;
+    width: 20vw;
+    aspect-ratio: 1/1;
+    border: 16px solid red;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.frame2 {
+    position: fixed;
+    width: 22vw;
+    aspect-ratio: 1/1;
+    border: 12px solid grey;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.box {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.circle {
+    width: 20vw;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    position: relative;
+    top: calc(50% - 10vw);
+    left: calc(50% - 10vw);
+}
+.circle1 {
+    background-color: mediumpurple;
+}
+.circle2 {
+    background-color: yellow;
+}
+.circle3 {
+    background-color: green;
+}
+
+.label {
+    font-size: 40px;
+    font-family: Arial;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}

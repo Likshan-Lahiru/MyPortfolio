@@ -1,0 +1,113 @@
+body {
+    overflow: hidden;
+}
+
+.circle {
+    width: 15vw;
+    height: 15vw;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.circle1 {
+    left: calc(0% - 6vw);
+    top: calc(0% - 6vw);
+}
+.circle2 {
+    top: calc(0% - 8vw);
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.circle3 {
+    right: calc(0% - 6vw);
+    top: calc(0% - 6vw);
+}
+.circle4 {
+    bottom: calc(0% - 6vw);
+    left: calc(0% - 6vw);
+}
+.circle5 {
+    bottom: calc(0% - 8vw);
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.circle6 {
+    bottom: calc(0% - 6vw);
+    right: calc(0% - 6vw);
+}
+
+.white_box {
+    width: 20vw;
+    height: 15vw;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.middle_circle {
+    width: 10vw;
+    height: 10vw;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.box {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+}
+
+.box1 {
+    background-color: red;
+}
+.box2 {
+    background-color: green;
+    left: 50%;
+}
+.box3 {
+    background-color: orange;
+    top: 50%;
+}
+.box4 {
+    background-color: deeppink;
+    top: 50%;
+    left: 50%;
+}
+
+.white_circle {
+    width: 15vw;
+    height: 15vw;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.red_box {
+    width: 8vw;
+    height: 8vw;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}

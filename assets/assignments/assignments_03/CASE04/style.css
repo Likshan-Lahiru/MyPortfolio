@@ -1,0 +1,58 @@
+body>main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    /*top: 0;*/
+}
+body>main:first-child {
+    background-color: #fffb00;
+}
+body>main:nth-child(2) {
+    background-color: #00ff48;
+}
+body>main:nth-child(3) {
+    background-color: #002d81;
+}
+body>main:nth-child(4) {
+    background-color: #810063;
+}
+
+h1 {
+    position: sticky;
+    top: 0;
+    margin: 0;
+    color: white;
+    font-family: Arial;
+    height: 10vh;
+    padding: 5vh 15vh 0;
+}
+
+.h1 {
+    z-index: 10;
+    background-color: rgb(255, 145, 0);
+}
+.h2 {
+    z-index: 10;
+    background-color: #005900;
+}
+.h3 {
+    z-index: 10;
+    background-color: rgb(0, 255, 249);
+}
+.h4 {
+    z-index: 10;
+    background-color: #d000ff;
+}
+
+div {
+    font-size: 80px;
+    font-family: Algerian;
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}

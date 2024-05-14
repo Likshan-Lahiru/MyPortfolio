@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KIIT</title>
+
+    <style>
+
+        main {
+            width: fit-content;
+            height: fit-content;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        #light-panel {
+            display: flex;
+            width: fit-content;
+            height: fit-content;
+            margin: auto;
+        }
+
+        #btn-panel {
+            text-align: center;
+            margin: 20px 0px;
+        }
+
+        .light {
+            width: 100px;
+            aspect-ratio: 2/1;
+            border: 2px solid black;
+        }
+
+
+        .light_on {
+            background: red;
+            box-shadow: 0px 0px 20px red;
+        }
+        .light_on2 {
+            background: hotpink;
+            box-shadow: 0px 0px 20px hotpink;
+        }
+
+    </style>
+
+
+</head>
+<body>
+<main>
+    <section id="light-panel">
+
+        <div class="light"></div> <!-- light 01 -->
+        <div class="light"></div> <!-- light 02 -->
+        <div class="light"></div> <!-- light 03 -->
+        <div class="light"></div> <!-- light 04 -->
+        <div class="light"></div> <!-- light 05 -->
+        <div class="light"></div> <!-- light 06 -->
+
+    </section>
+
+    <section id="btn-panel">
+        <button type="button" id="start">Start</button>
+        <button type="button" id="stop">Stop</button>
+    </section>
+</main>
+
+<audio id="audio" src="assets/audio/audio.mp3"></audio>
+
+
+<script src="assets/lib/jquery-3.7.1.min.js"></script>
+<script src="assets/script.js"></script>
+
+</body>
+</html>
