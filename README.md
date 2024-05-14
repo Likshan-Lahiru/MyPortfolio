@@ -5,7 +5,7 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-Site Map Link      :- Https://Www.Gloomaps.Com/Pjo4Czteo6
+Site Map Link      :- https://www.gloomaps.com/PJo4CZtEo6
 
 Wire frame Link 	:- 
 
