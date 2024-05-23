@@ -5,6 +5,7 @@ body{
     background-color: var(--bg-color);
     background-attachment: fixed;
 }
+
 :root{
     --bg-color: #1f242d;
     --theme-color: #01EEFF ;
