@@ -37,6 +37,12 @@ body{
     background-color: #f0f0f0;
 
 }
+#title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
 .button-input{
     width: 20%;
     height: 150%;
