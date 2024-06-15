@@ -1,0 +1,142 @@
+/*nav>div>img{
+    width: 100px;
+    aspect-ratio: 1/1;
+}
+nav>div>div>ul{
+    left: 30px;
+    color: #ff253a;
+}
+
+header{
+    background: transparent;
+}
+
+header>nav{
+
+ !*   width: 100vw;
+    height: 11vh;*!
+
+}
+#invoice_details{
+    width: 40vw;
+    height: 35vh;
+
+   !* position: absolute;
+    left: 1vw;*!
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#item_details{
+    width: 40vw;
+    height: 20vh;
+!*
+    position: absolute;
+    left: 45vw;*!
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#purchase{
+    background-color: chartreuse;
+}
+
+
+
+#total_form{
+    width: 40vw;
+    height: 40vh;
+    !*position: absolute;
+    left: 1vw;
+    top: 60vh;*!
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+#final{
+    width: 40vw;
+    height: 40vh;
+    !*position: absolute;
+    left: 45vw;
+    top: 60vh;*!
+}*/
+.back-video{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+
+
+
+}
+
+.total_form1{
+    display: flex;
+}
+.main-container{
+    margin-top: 1rem;
+    margin-left: 5rem ;
+    margin-right: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+#total_form{
+    margin-top: 2rem;
+    margin-left: 5rem;
+    width: 40vw;
+    height: 30vh;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 75%;
+    }
+    /*  section {
+          padding: 11rem 2% 2rem;
+
+      }*/
+
+
+}
+
+
+
+@media (max-width: 768px) {
+    /*section {
+        padding: 7rem 2% 1rem;
+    }*/
+    .item_details{
+        font-size: 30%;
+    }
+    .total_form{
+        font-size: 30%;
+    }
+    .invoice_details{
+        font-size: 30%;
+    }
+    .final{
+        font-size: 30%;
+    }
+}
+@media (max-width: 425px) {
+    /*section {
+        padding: 7rem 2% 1rem;
+    }*/
+    .item_details{
+        font-size: 30%;
+    }
+    .total_form{
+        font-size: 30%;
+    }
+    .invoice_details{
+        font-size: 30%;
+    }
+    .final{
+        font-size: 30%;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}

@@ -1,0 +1,139 @@
+nav>div>img{
+    width: 100px;
+    aspect-ratio: 1/1;
+}
+nav>div>div>ul{
+    left: 30px;
+    color: #ff253a;
+}
+/*body{
+    overflow: hidden;
+}*/
+.header{
+    background: brown;
+    margin-top: 0;
+}
+.table-details{
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+
+  @media (max-width: 720px) and (min-width: 100px){
+      #search_panel>div>form>input{
+         font-size: 7px;
+          height: 30px;
+      }
+      #search_panel>div>form>button{
+         font-size: 7px;
+          height: 30px;
+
+
+      }
+      #search_panel {
+         height: 100px;
+
+      }
+      #logo{
+          width: 50px;
+          aspect-ratio: 1/1;
+      }
+      #registerBtn{
+          width: 10vw;
+          height: 4vh;
+          font-size: 7px;
+
+
+      }
+      #editBtn{
+          width: 10vw;
+          height: 4vh;
+          font-size: 7px;
+      }
+      #customerTable{
+          width: 90vw;
+          height: 20vh;
+          font-size: 10px;
+
+      }
+      #viewList{
+          width: 20vw;
+          height: 4vh;
+          font-size: 7px;
+      }
+      #exampleModal{
+          width: 50vw;
+          height: 100vh;
+
+          left: -1vw;
+      }
+      #registerBtn1{
+          width: 10vw;
+          height: 4vh;
+          font-size: 7px;
+      }
+      #closeBtn{
+          width: 10vw;
+          height: 4vh;
+          font-size: 7px;
+      }
+      #inputMenu{
+          font-size: 10px;
+      }
+
+  }
+
+
+
+
+#title>div{
+    width: 100vw;
+    height: 9vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color: #000000;
+
+}
+
+#title>div>h3{
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-color: #00bbff;
+}
+#search_panel>div:nth-child(1){
+    width: 30vw;
+    position: absolute;
+    top: 2vh;
+    left: 60vw;
+
+}
+#search_panel{
+    width: 95vw;
+    height: 20vh;
+    position: relative;
+    left: 19px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+}
+#search_panel>div:nth-child(2){
+    width: 30vw;
+    position: absolute;
+    top: 14vh;
+    left: 60vw;
+    background-color: #ffffff;
+
+}
+#viewList{
+    position: absolute;
+    left: 5vw;
+}
+#modelHeader{
+    background-color: #00bbff;
+}
+#viewAllCustomer{
+    background-color: #00bbff;
+}
+
+
