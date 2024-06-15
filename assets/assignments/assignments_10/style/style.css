@@ -1,0 +1,76 @@
+body{
+    overflow: hidden;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #e1e1e1;
+    font-family: 'Arial', sans-serif;
+
+}
+
+.calculator-main{
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 10rem 10rem;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border-radius: 10%;
+
+}
+.calculator-main>form{
+    width: 20rem;
+    display: grid;
+    gap: 10%;
+}
+#final-output{
+    width: 80%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+    box-shadow: inset 5px 5px 10px #cccccc, inset -5px -5px 10px #ffffff;
+    background-color: #f0f0f0;
+
+}
+.button-input{
+    width: 20%;
+    height: 150%;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #ffffff;
+    transition: all 0.2s ease-in-out;
+}
+.button-input:active {
+    box-shadow: inset 5px 5px 10px #b8b9be, inset -5px -5px 10px #ffffff;
+    transform: scale(0.95);
+}
+@keyframes hoverEffect {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.button-input:hover {
+    animation: hoverEffect 0.3s ease-in-out;
+}
+.second-div{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 5%;
+}
+
