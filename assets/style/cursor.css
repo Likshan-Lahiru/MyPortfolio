@@ -13,12 +13,12 @@
     z-index: 111;
     border: 5px solid #ffffff;
     transition: all 0.2s ease-out;
-    animation: moveCursor1 .5s infinite alternate;
+    animation: moveCursor1 .2s infinite alternate;
 }
 
 .expand {
     background: transparent;
-    animation: moveCursor2 .5s forwards;
+    animation: moveCursor2 .2s forwards;
     border: 1px solid #ffffff;
 }
 
