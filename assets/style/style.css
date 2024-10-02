@@ -32,11 +32,9 @@ body{
     scroll-behavior: smooth;
     font-family: 'Poppins' ,sans-serif;
 
-
-
 }
-section{
 
+section{
     padding: 3rem 3% 2rem;
     overflow: hidden;
 }
@@ -225,6 +223,7 @@ nav{
 
 
 /*------------about me page css------------*/
+
 #aboutMe-page{
     display: flex;
     justify-content: center;
@@ -262,6 +261,9 @@ nav{
 }
 #second-div .me-text {
     color: var(--theme-color);
+}
+#aboutMe-page p,h2{
+    font-size: 1.5rem;
 }
 
 
