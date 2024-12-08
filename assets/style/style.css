@@ -263,9 +263,13 @@ nav{
     color: var(--theme-color);
 }
 #aboutMe-page p,h2{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
-
+@media (max-width: 425px) {
+    #aboutMe-page p,h2{
+        font-size: 1.2rem;
+    }
+}
 
 
 /*------------services Section---------------*/

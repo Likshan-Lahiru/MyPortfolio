@@ -65,10 +65,10 @@
         padding: 2rem 1rem;
 
     }
-    .aboutme-details p{
+    .about-me-details p{
         font-size: 2rem;
     }
-    .aboutme-p2{
+    .about-me-p2{
         font-size: 20%;
     }
     .informations>p{
@@ -305,6 +305,7 @@
     }
 }
 @media (max-width: 425px) {
+
     .assignments-container h3 ,h4 ,p{
         font-size: 30%;
 
@@ -359,6 +360,7 @@
     .contact-me form .sender-box input{
         width: 100%;
     }
+
 }
 
 @media (max-width: 321px) {
@@ -373,4 +375,8 @@
         height: .1rem;
         font-size: 5px;
     }
+
+
+
+
 }
